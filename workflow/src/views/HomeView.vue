@@ -11,7 +11,7 @@ import Navbar from '../components/Navbar.vue'
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae eveniet quas
           consectetur incidunt voluptatum eius tenetur culpa rem, magni quasi dolorum veniam,
-          expedita possimus cumque blanditiis est. Eaque, ut cum?
+          expedita possimus cumque blanditiis est. Eaque, ut cum?!!
         </p>
       </div>
     </div>
