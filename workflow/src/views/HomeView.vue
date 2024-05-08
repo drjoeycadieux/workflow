@@ -1,14 +1,16 @@
 <script setup>
 import FooterModule from '../components/FooterModule.vue'
 import Navbar from '../components/Navbar.vue'
+import Alerts from '../components/Alerts.vue'
 </script>
 
 <template>
   <div>
+    <Alerts />
     <Navbar />
     <div class="header-content">
       <div class="header-text">
-        <p id="title">Techtack-Technologies | Workflow</p>
+        <p id="title">Techtack-Technologies | Workflow </p>
         <div class="content-container">
           <p>
             With Content Technology, we enable Media Companies, Educational organisations, Corporate
@@ -59,8 +61,8 @@ import Navbar from '../components/Navbar.vue'
 
 .content-container {
   display: flex;
-  align-items: center; /* Align items vertically */
-  justify-content: space-between; /* Space between image and text */
+  align-items: center;
+    justify-content: space-around;
 }
 
 .header-text p {
