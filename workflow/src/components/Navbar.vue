@@ -10,7 +10,7 @@
 
 <style scoped>
 .navbar-header-top {
-  padding: 25px;
+  padding: 10px;
   background-color: rgb(23, 37, 51);
 }
 .linknav {
