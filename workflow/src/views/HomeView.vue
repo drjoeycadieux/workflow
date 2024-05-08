@@ -9,20 +9,26 @@ import Navbar from '../components/Navbar.vue'
     <div class="header-content">
       <div class="header-text">
         <p id="title">Techtack-Technologies | Workflow</p>
-        <p>
-          With Content Technology, we enable Media Companies, Educational organisations, Corporate
-          Institutions and Retailers engage their customers and staff by creating workflow solutions
-          that create content, manage content, distribute content and analyse content.
-        </p>
+        <div class="content-container">
+          <p>
+            With Content Technology, we enable Media Companies, Educational organisations, Corporate
+            Institutions and Retailers engage their customers and staff by creating workflow
+            solutions that create content, manage content, distribute content and analyse content.
+          </p>
+          <img class="logo" width="304" src="../assets/host1.png" alt="" />
+        </div>
       </div>
     </div>
     <div class="header-showcase">
       <div class="header-content-title">
         <p id="title">Technical Support</p>
-        <p>
-          A help desk is a resource intended to provide the customer or end user with information
-          and support related to a company's or institution's products and services
-        </p>
+        <div class="content-container">
+          <p>
+            A help desk is a resource intended to provide the customer or end user with information
+            and support related to a company's or institution's products and services
+          </p>
+          <img class="logo" width="304" src="../assets/host2.png" alt="" srcset="" />
+        </div>
       </div>
     </div>
     <FooterModule />
@@ -30,33 +36,37 @@ import Navbar from '../components/Navbar.vue'
 </template>
 
 <style scoped>
-.header-showcase {
+.header-content {
   padding: 125px;
   background-color: rgb(39, 65, 102);
 }
 
-.header-showcase p {
-  color: white;
-  font-family: sans-serif;
-  font-size: 23px;
-  text-align: center;
-}
-.header-content {
+.header-showcase {
   padding: 125px;
-  background-color: rgb(19, 46, 85);
+  background-color: rgb(35, 50, 73);
 }
 
-.header-text #title {
+.header-showcase p {
   color: white;
+  width: 600px;
   font-family: sans-serif;
-  font-size: 26px;
-  text-align: center;
+  font-size: 23px;
+}
+
+.logo {
+  width: 305px;
+}
+
+.content-container {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Space between image and text */
 }
 
 .header-text p {
-  color: lightgray;
+  color: white;
   font-family: sans-serif;
-  font-size: 22px;
-  text-align: center;
+  font-size: 23px;
+  width: 600px;
 }
 </style>

@@ -12,6 +12,9 @@
 .navbar-header-top {
   padding: 10px;
   background-color: rgb(23, 37, 51);
+  box-shadow:
+    0px 0px 25px 15px rgba(0, 0, 0, 0.1),
+    0px 10px 15px 48px rgba(0, 0, 0, 0.1);
 }
 .linknav {
   margin: 8px;
