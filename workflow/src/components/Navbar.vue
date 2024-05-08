@@ -24,17 +24,17 @@
   text-decoration: none;
   font-size: 26px;
   font-family:
-      system-ui,
-      -apple-system,
-      BlinkMacSystemFont,
-      'Segoe UI',
-      Roboto,
-      Oxygen,
-      Ubuntu,
-      Cantarell,
-      'Open Sans',
-      'Helvetica Neue',
-      sans-serif;
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
 }
 
 .linknav:hover {
@@ -44,7 +44,6 @@
   padding: 9px;
   font-size: 13px;
   margin: 8px;
-  ;
   color: white;
   text-decoration: none;
   background-color: rgba(211, 211, 211, 0.404);

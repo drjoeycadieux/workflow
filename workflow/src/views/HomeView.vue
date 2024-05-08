@@ -21,6 +21,7 @@ import Alerts from '../components/Alerts.vue'
         </div>
       </div>
     </div>
+    <br>
     <div class="header-showcase">
       <div class="header-content-title">
         <p id="title">Technical Support</p>
@@ -39,13 +40,21 @@ import Alerts from '../components/Alerts.vue'
 
 <style scoped>
 .header-content {
-  padding: 125px;
+  padding: 75px;
   background-color: rgb(39, 65, 102);
+  position: relative;
+  z-index: 1;
+  border-bottom-left-radius: 35% 29px;
+  border-bottom-right-radius: 35% 29px;
 }
 
 .header-showcase {
   padding: 125px;
   background-color: rgb(35, 50, 73);
+  position: relative;
+  z-index: 1;
+   border-bottom-left-radius: 35% 29px;
+  border-bottom-right-radius: 35% 29px;
 }
 
 .header-showcase p {
@@ -63,7 +72,7 @@ import Alerts from '../components/Alerts.vue'
 .content-container {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .header-text p {

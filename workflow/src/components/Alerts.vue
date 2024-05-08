@@ -4,10 +4,8 @@
   <div>
     <div class="alerts">
       <p>
-        <i class="bi bi-info-circle"></i> NEW! Documentation Coming Soon.
-        <a class="links" href="http://" target="_blank" rel="noopener noreferrer"
-          >Learn More &rarr;</a
-        >
+        <i class="bi bi-info-circle"></i> <strong>FYI</strong> We just launch a brand new-website
+        after a cyber-incident <router-link class="links" to="News/News">Learn More &rarr;</router-link>
       </p>
     </div>
   </div>
@@ -27,6 +25,7 @@
 
 .links:hover {
   color: white;
+  text-decoration: underline;
 }
 
 .alerts p {
