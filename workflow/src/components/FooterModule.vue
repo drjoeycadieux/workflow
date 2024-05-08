@@ -28,7 +28,6 @@
 
 .icons {
   font-size: 22px;
-  color: rgb(26, 37, 71);
 }
 
 .icons:hover {
@@ -43,7 +42,7 @@
   color: rgb(38, 68, 167);
 }
 .footer {
-  padding: 25px;
+  padding: 10px;
   text-align: center;
 }
 

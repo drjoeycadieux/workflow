@@ -10,7 +10,7 @@ import Alerts from '../components/Alerts.vue'
     <Navbar />
     <div class="header-content">
       <div class="header-text">
-        <p id="title">Techtack-Technologies | Workflow </p>
+        <p id="title">Techtack-Technologies | Workflow</p>
         <div class="content-container">
           <p>
             With Content Technology, we enable Media Companies, Educational organisations, Corporate
@@ -57,12 +57,13 @@ import Alerts from '../components/Alerts.vue'
 
 .logo {
   width: 305px;
+  border-radius: 15px;
 }
 
 .content-container {
   display: flex;
   align-items: center;
-    justify-content: space-around;
+  justify-content: space-around;
 }
 
 .header-text p {

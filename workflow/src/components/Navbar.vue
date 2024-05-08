@@ -4,6 +4,8 @@
   <div class="navbar-header-top">
     <ul>
       <router-link class="linknav" to="/">Techtack-Technologies</router-link>
+      <router-link class="button" to="/documentation/docs">Get Started</router-link>
+      <router-link class="button" to="/blog/home">Blog</router-link>
     </ul>
   </div>
 </template>
@@ -21,10 +23,36 @@
   color: white;
   text-decoration: none;
   font-size: 26px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family:
+      system-ui,
+      -apple-system,
+      BlinkMacSystemFont,
+      'Segoe UI',
+      Roboto,
+      Oxygen,
+      Ubuntu,
+      Cantarell,
+      'Open Sans',
+      'Helvetica Neue',
+      sans-serif;
 }
 
 .linknav:hover {
   color: lightslategray;
+}
+.button {
+  padding: 9px;
+  font-size: 13px;
+  margin: 8px;
+  ;
+  color: white;
+  text-decoration: none;
+  background-color: rgba(211, 211, 211, 0.404);
+  border-radius: 6px;
+  font-family: sans-serif;
+}
+
+.button:hover {
+  background-color: rgba(129, 135, 136, 0.521);
 }
 </style>
