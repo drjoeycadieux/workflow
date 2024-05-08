@@ -1,5 +1,6 @@
 <script setup>
-import Navbar from '../components/Navbar.vue';
+import FooterModule from '../components/FooterModule.vue'
+import Navbar from '../components/Navbar.vue'
 </script>
 
 <template>
@@ -9,16 +10,37 @@ import Navbar from '../components/Navbar.vue';
       <div class="header-text">
         <p id="title">Techtack-Technologies | Workflow</p>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae eveniet quas
-          consectetur incidunt voluptatum eius tenetur culpa rem, magni quasi dolorum veniam,
-          expedita possimus cumque blanditiis est. Eaque, ut cum?!!
+          With Content Technology, we enable Media Companies, Educational organisations, Corporate
+          Institutions and Retailers engage their customers and staff by creating workflow solutions
+          that create content, manage content, distribute content and analyse content.
         </p>
       </div>
     </div>
+    <div class="header-showcase">
+      <div class="header-content-title">
+        <p id="title">Technical Support</p>
+        <p>
+          A help desk is a resource intended to provide the customer or end user with information
+          and support related to a company's or institution's products and services
+        </p>
+      </div>
+    </div>
+    <FooterModule />
   </div>
 </template>
 
 <style scoped>
+.header-showcase {
+  padding: 125px;
+  background-color: rgb(39, 65, 102);
+}
+
+.header-showcase p {
+  color: white;
+  font-family: sans-serif;
+  font-size: 23px;
+  text-align: center;
+}
 .header-content {
   padding: 125px;
   background-color: rgb(19, 46, 85);
