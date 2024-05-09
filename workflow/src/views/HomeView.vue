@@ -17,7 +17,7 @@ import Alerts from '../components/Alerts.vue'
             Institutions and Retailers engage their customers and staff by creating workflow
             solutions that create content, manage content, distribute content and analyse content.
           </p>
-          <img class="logo" width="304" src="../assets/host1.png" alt="" />
+          <img class="logo" width="304" src="../assets/logo1.png" alt="" />
         </div>
       </div>
     </div>
@@ -30,7 +30,7 @@ import Alerts from '../components/Alerts.vue'
             A help desk is a resource intended to provide the customer or end user with information
             and support related to a company's or institution's products and services
           </p>
-          <img class="logo" width="304" src="../assets/host2.png" alt="" srcset="" />
+          <img class="logo" width="304" src="../assets/logo2.png" alt="" srcset="" />
         </div>
       </div>
     </div>
