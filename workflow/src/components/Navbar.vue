@@ -6,6 +6,7 @@
       <router-link class="linknav" to="/">Techtack-Technologies</router-link>
       <router-link class="button" to="/documentation/docs">Get Started</router-link>
       <router-link class="button" to="/blog/home">Blog</router-link>
+      <router-link class="button" to="about">About</router-link>
     </ul>
   </div>
 </template>

@@ -21,7 +21,7 @@ import Alerts from '../components/Alerts.vue'
         </div>
       </div>
     </div>
-    <br>
+    <br />
     <div class="header-showcase">
       <div class="header-content-title">
         <p id="title">Technical Support</p>
@@ -53,7 +53,7 @@ import Alerts from '../components/Alerts.vue'
   background-color: rgb(35, 50, 73);
   position: relative;
   z-index: 1;
-   border-bottom-left-radius: 35% 29px;
+  border-bottom-left-radius: 35% 29px;
   border-bottom-right-radius: 35% 29px;
 }
 

@@ -1,5 +1,4 @@
-<script setup>
-</script>
+<script setup></script>
 
 <template>
   <div>
@@ -79,7 +78,10 @@ ul li {
 }
 
 .icons:hover {
-  color: rgb(68, 99, 167);
+  /* color: rgb(68, 99, 167); */
+  background-color: rgb(56, 64, 80);
+  padding: 5px;
+  border-radius: 5px;
 }
 
 .footer ul li {

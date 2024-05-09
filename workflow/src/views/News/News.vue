@@ -26,7 +26,6 @@ import Navbar from '../../components/Navbar.vue'
   z-index: 1;
 }
 
-
 .learn-more h2 {
   color: #fff;
   font-family: sans-serif;
