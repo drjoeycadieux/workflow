@@ -5,8 +5,7 @@
     <div class="alerts">
       <p>
         <i class="bi bi-info-circle"></i> <strong>FYI</strong> We just launch a brand new-website
-        after a <strong>cyber-incident</strong>
-        <router-link class="links" to="News/News">Learn More &rarr;</router-link>
+        after a <strong>cyber-incident  <router-link class="links" to="News/News">Learn More &rarr;</router-link> </strong>
       </p>
     </div>
   </div>
@@ -15,7 +14,7 @@
 <style scoped>
 .alerts {
   padding: 3px;
-  background-color: blueviolet;
+  background-color: rgb(137, 43, 226);
 }
 
 .links {

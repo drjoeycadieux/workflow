@@ -6,8 +6,8 @@ import Alerts from '../components/Alerts.vue'
 
 <template>
   <div>
-    <Alerts />
     <Navbar />
+    <Alerts />
     <div class="header-content">
       <div class="header-text">
         <p id="title">Techtack-Technologies | Workflow</p>
