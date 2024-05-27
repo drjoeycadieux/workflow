@@ -4,8 +4,11 @@
   <div>
     <div class="alerts">
       <p>
-        <i style="font-size: 23px;" class="bi bi-info-circle"></i> <strong>FYI</strong> We just launch a brand new-website
-        after a <strong>cyber-incident  <router-link class="links" to="News/News">Learn More &rarr;</router-link> </strong>
+        <i style="font-size: 23px" class="bi bi-info-circle"></i> <strong>FYI</strong> We just
+        launch a brand new-website after a
+        <strong
+          >cyber-incident <router-link class="links" to="News/News">Learn More &rarr;</router-link>
+        </strong>
       </p>
     </div>
   </div>

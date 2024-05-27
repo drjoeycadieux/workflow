@@ -7,6 +7,7 @@ import Home from '../views/blog/Home.vue'
 import Docs from '../views/documentation/Docs.vue'
 import News from '../views/News/News.vue'
 import WebMaster from '../views/internal/WebMaster.vue'
+import Register from '../views/internal/Register.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -35,6 +36,11 @@ const router = createRouter({
       path: '/internal/WebMaster',
       name: 'webmaster',
       component: WebMaster
+    },
+    {
+      path: '/internal/Register',
+      name: 'register',
+      component: Register
     },
     {
       path: '/about',
